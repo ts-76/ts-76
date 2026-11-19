@@ -2,18 +2,7 @@
   <title id="title">deck.mdx からスライドができるまで</title>
   <desc id="desc">左のエディタで deck.mdx にタイトル、箇条書き、Counterコンポーネントを書き込むと、右のプレビューにスライドが1枚ずつ生成され、最後にカウンターが0から3まで増えます。</desc>
   <style>
-    :root {
-      --bg: #fbf2e5; --rule: #e7d4bd; --ink: #50352b; --muted: #8f6e60;
-      --editor: #fff9ee; --bar: #f6e7d4; --coral: #dc876e; --deep: #a8513a;
-      --pink: #f5bca9; --lilac: #ded3ec; --violet: #7b5ea7; --slide: #fffaf2; --gold: #e2b66e;
-    }
-    @media (prefers-color-scheme: dark) {
-      :root {
-        --bg: #221a18; --rule: #46342c; --ink: #f6dfcc; --muted: #b0907f;
-        --editor: #2d2321; --bar: #372a26; --coral: #f19b81; --deep: #f7b39c;
-        --pink: #7d4a3c; --lilac: #4f4266; --violet: #c7b2ec; --slide: #3c2b26; --gold: #efd08a;
-      }
-    }
+    svg { --rule: #30363d; --ink: #e6edf3; --muted: #8b949e; --editor: #161b22; --bar: #21262d; --coral: #f19b81; --deep: #f7b39c; --pink: #5c3226; --lilac: #3a3160; --violet: #c297ff; --slide: #1c2128; --gold: #e3b341; }
     .mono { font: 500 13px ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; fill: var(--ink); }
     .small { font-size: 11px; }
     .ln { fill: var(--muted); opacity: .55; }
@@ -532,7 +521,6 @@
 }
   </style>
 
-  <rect x=".5" y=".5" width="879" height="319" rx="16" fill="var(--bg)" stroke="var(--rule)"/>
 
   <!-- editor -->
   <g>

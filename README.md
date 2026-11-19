@@ -5,7 +5,12 @@ ts-76@github:~$ tslab --help
 スライド、ドキュメント、開発環境のためのOSSを作っています。
 ```
 
-[![deck.mdxに書き込むと、右のプレビューにスライドが1枚ずつ作られていくアニメーション](assets/deck-mdx-build.svg)](https://hono-decks.com/demo/product)
+<a href="https://hono-decks.com/demo/product">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/deck-mdx-build-dark.svg">
+    <img src="assets/deck-mdx-build-light.svg" alt="deck.mdxに書き込むと、右のプレビューにスライドが1枚ずつ作られていくアニメーション" width="100%">
+  </picture>
+</a>
 
 ## <samp>$ tslab works</samp>
 
@@ -25,7 +30,10 @@ ts-76@github:~$ tslab --help
 
 ## <samp>$ tslab activity</samp>
 
-![直近31日間の日ごとのGitHubコントリビューション数](https://github-readme-activity-graph.ashutosh-dwivedi0710.workers.dev/graph?username=ts-76&days=31&hide_border=true&hide_title=true&height=230&bg_color=f6eddb&color=49352c&line=a03f28&point=9d3d27&area=true&area_color=ef977c)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.ashutosh-dwivedi0710.workers.dev/graph?username=ts-76&amp;days=31&amp;hide_border=true&amp;hide_title=true&amp;height=230&amp;area=true&amp;bg_color=00000000&amp;color=8b949e&amp;line=f19b81&amp;point=f7b39c&amp;area_color=8a4a39">
+  <img src="https://github-readme-activity-graph.ashutosh-dwivedi0710.workers.dev/graph?username=ts-76&amp;days=31&amp;hide_border=true&amp;hide_title=true&amp;height=230&amp;area=true&amp;bg_color=ffffff00&amp;color=656d76&amp;line=e0704f&amp;point=b5482c&amp;area_color=f6b3a0" alt="直近31日間の日ごとのGitHubコントリビューション数" width="100%">
+</picture>
 
 [GitHubの活動欄を見る ↗](https://github.com/ts-76#js-contribution-activity)
 
