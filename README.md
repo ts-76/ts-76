@@ -5,34 +5,23 @@ ts-76@github:~$ tslab --help
 スライド、ドキュメント、開発環境のためのOSSを作っています。
 ```
 
-![MDXから小さなスライドが飛び出すイラスト](assets/hono-decks-doodle.svg)
+[![deck.mdxに書き込むと、右のプレビューにスライドが1枚ずつ作られていくアニメーション](assets/deck-mdx-build.svg)](https://hono-decks.com/demo/product)
 
-<details>
-<summary><code>tslab slides</code> · スライドを公開する</summary>
+## `tslab slides` · スライドを公開する
 
-**hono-decks** は、MDXで書いたスライドをHonoやCloudflare Workersで配信するツールです。
+**[hono-decks](https://github.com/ts-76/hono-decks)** — MDXで書いたスライドを、HonoやCloudflare Workersで配信するツールです。
 
 [デモを開く ↗](https://hono-decks.com/demo/product) · [ドキュメント ↗](https://hono-decks.com/) · [GitHub ↗](https://github.com/ts-76/hono-decks)
 
-</details>
+## `tslab docs` · ドキュメントを足す
 
-<details>
-<summary><code>tslab docs</code> · ドキュメントを足す</summary>
+**[honoxpress](https://github.com/ts-76/honoxpress)** — 既存のHonoアプリに、ナビゲーションや目次付きのドキュメントを追加できます。
 
-**honoxpress** で、既存のHonoアプリにナビゲーションや目次付きのドキュメントを追加できます。
+**[void-plugin-hono-jsx](https://github.com/ts-76/void-plugin-hono-jsx)** — VoidでHono JSXを使うためのプラグインです。
 
-[honoxpress ↗](https://github.com/ts-76/honoxpress) · [VoidでHono JSXを使う ↗](https://github.com/ts-76/void-plugin-hono-jsx)
+## `tslab repos` · リポジトリを整理する
 
-</details>
-
-<details>
-<summary><code>tslab repos</code> · リポジトリを整理する</summary>
-
-**ghq-sector** は、`ghq` で管理するリポジトリを用途別にまとめて開くためのCLIです。
-
-[ghq-sector ↗](https://github.com/ts-76/ghq-sector)
-
-</details>
+**[ghq-sector](https://github.com/ts-76/ghq-sector)** — `ghq` で管理するリポジトリを、用途別にまとめて開くためのCLIです。
 
 ## `tslab stack` · よく使う技術
 
